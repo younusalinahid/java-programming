@@ -6,6 +6,8 @@ public class Input1Demo {
         //Event 1 to n number
         Scanner input = new Scanner(System.in);
         int sum = 0,n;
+
+
         System.out.println("Ener Final number ");
         n = input.nextInt();
 
