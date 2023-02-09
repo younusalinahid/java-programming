@@ -35,7 +35,7 @@ public class StringDemo1 {
          boolean con = s1.contains("ami");
         System.out.println(con);
 
-        //true or false
+        //Empty or not
         boolean b = s1.isEmpty();
         System.out.println("b = "+b);
 
