@@ -26,8 +26,6 @@ public class Arraylist02 {
         boolean contain = number.contains(30);
         System.out.println("30 is in the list :"+contain);
 
-        int pos = number.indexOf(40);
-        System.out.println("The index of 40 is :"+pos);
 
     }
 
