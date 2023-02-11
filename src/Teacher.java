@@ -3,10 +3,12 @@ public class Teacher {
     String name,gender;
     int phone;
 
-    void setInformation(String n, String m, int ph){
-        name = n;
-        gender = m;
-        phone = ph;
+   Teacher(String n, String g, int p) {
+       name = n;
+       gender = g;
+       phone = p;
+
+
 
     }
    void displayIngormation(){
