@@ -6,11 +6,7 @@ public class Test {
         teacher1.name = "Younus ali";
         teacher1.gender = "male";
         teacher1.phone = 1234567890;
-
-
-        System.out.println("Name : "+teacher1.name);
-        System.out.println("Gender : "+teacher1.gender);
-        System.out.println("Phone : "+teacher1.phone);
+        teacher1.displayInformation();
 
         System.out.println();
         Teacher teacher2 = new Teacher();
@@ -18,11 +14,8 @@ public class Test {
         teacher2.name = "Md.nahid";
         teacher2.gender = "male";
         teacher2.phone = 1710442700;
+        teacher2.displayInformation();
 
-
-        System.out.println("Name : "+teacher2.name);
-        System.out.println("Gender : "+teacher2.gender);
-        System.out.println("Phone : "+teacher2.phone);
 
 
     }
