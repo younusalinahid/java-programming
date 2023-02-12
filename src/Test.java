@@ -11,6 +11,10 @@ public class Test {
         Teacher teacher2 = new Teacher("Md.Nahid","male",01234567);
         teacher2.displayIngormation();
 
+        System.out.println();
+        Teacher teacher3 = new Teacher();
+        teacher3.displayIngormation();
+
 
 
 
