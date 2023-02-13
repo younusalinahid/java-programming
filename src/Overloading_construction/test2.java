@@ -7,7 +7,7 @@ public class test2 {
 
         Returning_value ob2 = new Returning_value();
         System.out.println("Squre of 6 = "+ob1.square(6));
-
+ 
 
     }
 }
