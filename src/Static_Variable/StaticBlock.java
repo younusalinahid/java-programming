@@ -5,19 +5,12 @@ public class StaticBlock {
     static String name;
 
     static {
-
-        id = 82;
-        name = "Nahid";
-
+        System.out.println("Static block ");
     }
 
-   static void display(){
-        System.out.println("id : "+id);
-        System.out.println("Name : "+name);
-    }
 
     public static void main(String[] args) {
-        StaticBlock.display();
+        System.out.println("main method");
     }
 
 
