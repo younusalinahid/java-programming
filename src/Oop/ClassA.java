@@ -2,7 +2,9 @@ package Oop;
 
 public class ClassA {
 
-    int x = 10;
+    void display(){
+        System.out.println("Inside Class A ");
+    }
 
 }
 
