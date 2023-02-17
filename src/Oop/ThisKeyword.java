@@ -2,25 +2,13 @@ package Oop;
 
 public class ThisKeyword {
 
-    String name;
-    String hairColor;
-    int age;
+  void massage(){
+      System.out.println("I am massage method ");
+  }
 
-
-    ThisKeyword(String name,int age){
-        this.name = name;
-        this.age = age;
-    }
-    ThisKeyword(String name,int age,String hairColor){
-        this(name, age);
-        this.hairColor = hairColor;
-
-    }
-
-    void display(){
-        System.out.println("Name : "+name);
-        System.out.println("Age : "+age);
-        System.out.println("HairColor : "+hairColor);
-    }
+  void display(){
+      this.massage();
+      System.out.println("I am display method ");
+  }
 
 }
