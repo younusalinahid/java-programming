@@ -2,9 +2,9 @@ package Oop;
 
 public class ClassB extends ClassA {
 
-    @Override
-    void display() {
-        super.display();
-        System.out.println("Inside Class B ");
+    ClassB (){
+        super();
+        System.out.println("B's constructor ");
     }
+
 }

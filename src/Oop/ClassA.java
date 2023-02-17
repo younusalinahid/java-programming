@@ -2,8 +2,8 @@ package Oop;
 
 public class ClassA {
 
-    void display(){
-        System.out.println("Inside Class A ");
+    ClassA (){
+        System.out.println("A's constructor ");
     }
 
 }
