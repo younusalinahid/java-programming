@@ -6,7 +6,7 @@ public class Rectangle extends Shape {
         super(dim1,dim2);
     }
 
-    void area(){
+    void area() {
 
         double result = dim1 * dim2;
         System.out.println("Rectangle area : "+result);
