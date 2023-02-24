@@ -7,7 +7,7 @@ public class InterfaceTest2 {
 
         InterfaceC ob = new InterfaceC();
         ob.play();
-
+ 
     }
 
 }
