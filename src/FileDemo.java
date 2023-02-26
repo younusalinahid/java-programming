@@ -6,14 +6,21 @@ public class FileDemo {
 
         File dir = new File("Person");
         dir.mkdir();//directory will be created
+        String path = dir.getAbsolutePath();
 
-        String dirlocation = dir.getAbsolutePath();
-        System.out.println(dirlocation);
-        System.out.println(dir.getName());
+        File file1 = new File(path+"Student.txt");
+        File file2 = new File(path+"Teacher.txt");
 
-        if (dir.delete()){
-            System.out.println(dir.getName()+"Folder has been deleted ");
+        try{
+
+            file1.createNewFile();
+            file2.createNewFile();
+            System.out.println("Files are created ");
+
+        }catch (Exception e){
+            System.out.println(e);
         }
+
 
     }
 
