@@ -2,18 +2,12 @@ public class Study {
 
     public static void main(String[] args) {
 
-        String FirstName = "Younus ";
-        String SecondName = "Ali ";
-        String LastName = "Nahid";
+        String[] cars = {"Younus","Ali","Nahid"};
 
-        String FullName = FirstName + SecondName + LastName;
+        for (String i : cars){
 
-        System.out.println(FullName);
+            System.out.println(i);
 
-
-
-
-
+        }
     }
-
 }
