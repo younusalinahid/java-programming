@@ -7,7 +7,7 @@ public class MethodOverloadingTest {
         MethodOverloading ob = new MethodOverloading();
         ob.add();
 
-        ob.add(5,5);
+        ob.add(5,5); //type conversion int to double
 
         ob.add(5,6,2);
 
