@@ -2,6 +2,8 @@ package Oop;
 
 public class MethodOverridingPerson {
 
+    //method overriding
+
     String name;
     int age;
 
