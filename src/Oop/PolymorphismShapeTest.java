@@ -4,6 +4,7 @@ public class PolymorphismShapeTest {
 
     public static void main(String[] args) {
 
+
         PolymorphismShape[] s = new PolymorphismShape[3];
 
         s[0] = new PolymorphismShape();

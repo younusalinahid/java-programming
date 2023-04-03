@@ -1,6 +1,7 @@
 package Oop;
 
 public class PolymorphismTriangle extends PolymorphismShape{
+//extend shep class
 
     //area
     double base,height;
