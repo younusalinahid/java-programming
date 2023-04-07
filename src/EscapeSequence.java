@@ -2,12 +2,20 @@ public class EscapeSequence {
 
     public static void main(String[] args){
 
-    System.out.println("Younus ali nahid \nroll - 82 \nBsc in CSE");
 
-    System.out.println("1 \t 2");
-    System.out.println("3 \t 4");
+        try {
+            int x = 10;
+            int y = 0;
+            int result = x / y;
+            System.out.println("Result : "+result);
 
-    System.out.println("\"Java Programming\" ");
+        }catch (ArithmeticException e){
+            System.out.println("Exception : "+e);
+        }
+
+        System.out.println("Last line of the program ");
 
     }
+
+
 }
