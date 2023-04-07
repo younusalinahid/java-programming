@@ -4,16 +4,22 @@ public class EscapeSequence {
 
 
         try {
-            int x = 10;
-            int y = 0;
-            int result = x / y;
-            System.out.println("Result : "+result);
+            int[] a = new int[4];
+            a[4] = 10;
 
-        }catch (ArithmeticException e){
-            System.out.println("Exception : "+e);
+        }catch (ArithmeticException e1){
+            System.out.println("Exception : "+e1);
+
+        }catch (Exception e2){
+            System.out.println("Exception : "+e2);
         }
 
-        System.out.println("Last line of the program ");
+        finally {
+
+            System.out.println();
+            System.out.println("Last line of the program ");
+
+        }
 
     }
 
