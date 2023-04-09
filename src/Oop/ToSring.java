@@ -10,6 +10,7 @@ public class ToSring {
         this.age = age;
     }
 
+
     @Override
     public String toString(){
         return "name : "+name +"\nage : "+age;
