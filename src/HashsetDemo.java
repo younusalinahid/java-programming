@@ -20,7 +20,7 @@ public class HashsetDemo {
         fruitsName.clear();
         System.out.println(fruitsName);
 
-        boolean value = fruitsName.isEmpty();
+        boolean value = fruitsName.isEmpty();//true or false
         System.out.println(value);
 
     }
