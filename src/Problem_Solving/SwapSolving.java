@@ -1,7 +1,5 @@
 package Problem_Solving;
 
-import java.util.LinkedList;
-
 public class SwapSolving {
     public static void main(String[] args) {
 
@@ -12,8 +10,13 @@ public class SwapSolving {
 
         SwapNodesInPairs sotution = new SwapNodesInPairs();
         listNode result = sotution.SwapNode(head);
-        System.out.println(2143);
+        head = head.next;
 
-
+        listNode current = result;
+        while (current != null) {
+            System.out.print(current.val+ "->");
+            current = current.next;
+        }
+        System.out.println("null");
     }
 }
