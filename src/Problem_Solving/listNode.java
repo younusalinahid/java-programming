@@ -1,6 +1,7 @@
 package Problem_Solving;
 
 public class listNode {
+    //RemoveLinkedListElements
     int val;
     listNode next;
 
