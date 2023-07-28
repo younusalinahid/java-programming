@@ -1,7 +1,8 @@
 package Problem_Solving;
 
 public class listNode {
-    //RemoveLinkedListElements
+
+    //1290. Convert Binary Number in a Linked List to Integer
     int val;
     listNode next;
 
