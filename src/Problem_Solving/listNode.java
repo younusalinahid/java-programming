@@ -2,7 +2,7 @@ package Problem_Solving;
 
 public class listNode {
 
-    //1290. Convert Binary Number in a Linked List to Integer
+    //876. Middle of the Linked List
     int val;
     listNode next;
 
