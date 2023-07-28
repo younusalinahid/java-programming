@@ -2,7 +2,7 @@ package Problem_Solving;
 
 public class listNode {
 
-    //876. Middle of the Linked List
+    //83. Remove Duplicates from Sorted List
     int val;
     listNode next;
 
