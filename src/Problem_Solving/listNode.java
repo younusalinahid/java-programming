@@ -2,7 +2,7 @@ package Problem_Solving;
 
 public class listNode {
 
-    //83. Remove Duplicates from Sorted List
+   //2181. Merge Nodes in Between Zeros
     int val;
     listNode next;
 
