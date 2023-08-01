@@ -2,7 +2,7 @@ package Problem_Solving;
 
 public class listNode {
 
-   //2181. Merge Nodes in Between Zeros
+   //237. Delete Node in a Linked List
     int val;
     listNode next;
 
